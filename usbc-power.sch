@@ -217,8 +217,19 @@ Wire Wire Line
 	6400 3200 6950 3200
 Wire Wire Line
 	6950 3700 7150 3700
-Text Label 7550 3700 0    50   ~ 0
-GND
 Wire Wire Line
 	7450 3700 7550 3700
+$Comp
+L pspice:R R5
+U 1 1 5F783173
+P 7800 3700
+F 0 "R5" V 7595 3700 50  0000 C CNN
+F 1 "R" V 7686 3700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 7800 3700 50  0001 C CNN
+F 3 "~" H 7800 3700 50  0001 C CNN
+	1    7800 3700
+	0    1    1    0   
+$EndComp
+Text Label 8050 3700 0    50   ~ 0
+GND
 $EndSCHEMATC
